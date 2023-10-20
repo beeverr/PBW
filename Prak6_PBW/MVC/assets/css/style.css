@@ -1,0 +1,43 @@
+/* Tabel Styles */
+.table-style {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table-style th,
+.table-style td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px 15px;
+}
+.table-style th {
+    background-color: #f2f2f2;
+    color: black;
+}
+.table-style tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Tombol Styles */
+.btn-edit, .btn-delete {
+    padding: 5px 15px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+.btn-edit {
+    background-color: #FFD700; /* Warna kuning */
+}
+.btn-edit:hover {
+    background-color: #FFC400;
+}
+.btn-delete {
+    background-color: #FF6347; /* Warna merah */
+}
+.btn-delete:hover {
+    background-color: #FF4120;
+}
